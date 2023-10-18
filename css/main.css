@@ -370,7 +370,7 @@ section {
     background-color: #ffff;
     border: 5px solid #fff;
     min-height: 14em;
-    width: 23em;
+    width: 24em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -384,6 +384,16 @@ section {
 
 .contact-card p {
     padding: 1rem;
+}
+
+.contact-card a {
+    text-decoration: none;
+    color: var(--background-color);
+    font-weight: bold;
+    padding: 1rem;
+}
+.contact-card a:hover {
+    color: var(--color);
 }
 
 .contact-card:hover {
